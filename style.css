@@ -54,6 +54,7 @@ main section div img {
 main section div p {
   margin-left: 5px;
     float: left;
+    width: calc(100% - 320px);
 }
 
 .see-more {
