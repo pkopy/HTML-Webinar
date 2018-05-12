@@ -32,6 +32,20 @@ main section h2 {
   color: #2a86a5;
 }
 
+main section div {
+  overflow: auto;
+}
+main section div img {
+  max-width: 300px;
+  float: left;
+  border: 1px solid #000;
+}
+
+main section div p {
+  margin-left: 5px;
+    float: left;
+}
+
 .see-more {
   color: red;
   font-weight: bold;
