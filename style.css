@@ -31,3 +31,9 @@ main {
 main section h2 {
   color: #2a86a5;
 }
+
+.see-more {
+  color: red;
+  font-weight: bold;
+}
+
