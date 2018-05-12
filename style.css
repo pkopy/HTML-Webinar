@@ -11,12 +11,21 @@ header {
 header nav {
   text-align: center;
   background: #efefef;
-  padding: 5px;
+  
 }
 
 header nav a {
+  
   color: #000;
   margin-right: 15px;
+  padding: 5px;
+
+}
+
+header nav a:hover {
+  background: #f1dfdf;
+  
+  
 }
 
 h1 {
