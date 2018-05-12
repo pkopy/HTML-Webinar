@@ -6,18 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <style>
-    .box {
+    .wrapper .collumn {
+      width: 50%;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box;
+
+    }
+    .wrapper .orange {
+      background: orange;
+    }
+    .wrapper .green {
       background: green;
     }
 
     @media only screen and (max-width: 1024px) {
-      .box {
-        background: orange;
-      }
+      
+
     }
     @media only screen and (max-width: 640px) {
-      .box {
-        background: red;
+      .wrapper .collumn {
+        width: 100%;
       }
     }
     @media only screen and (max-width: 320px) {
@@ -28,6 +37,11 @@
   </style>
 </head>
 <body>
-  <div class="box">Heloooooooo</div>
+  <div class="wrapper">
+
+    <div class="collumn orange">1</div>
+    <div class="collumn green">2</div>
+    
+  </div>
 </body>
 </html>
